@@ -2,7 +2,7 @@
 # What is the largest prime factor of the number 600851475143?
 
 # Find the prime factors
-num = 600851475143
+num = 13195
 counter = 0
 for i in range(num + 1, 2, -1):
   if num % i == 0:
@@ -12,3 +12,4 @@ for i in range(num + 1, 2, -1):
         counter = 0
     if counter == 1:
       print(i)
+      break
